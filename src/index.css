@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Poppins:wght@300;400;500;600;700&family=Zeyada&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+.card-btn{
+  background-color: #22543D !important;
+}
+ul,li{
+  list-style: none !important;
+}
+.input{
+  outline: none !important;
+}
+.FormGroup:focus-within {
+  outline: none !important;
+}
+
+.FormGroup > Input:focus {
+  outline: none !important;
+}
+
+input:focus{
+border-color: green !important;
+outline: none !important;
+}
+.sidebar{
+  height: 150vh;
+  background-color: #22543D !important;
+}
+.order-page{
+  background-color: #C6F6D5 !important;
+}
+.header{
+  background-color: #C6F6D5;
+}
+.title{
+  background-color: #22543D !important;
+}
+.text{
+  color: #22543D  !important;
+}
+.table-img{
+  object-fit: contain !important;
+  width:150px;
+  height: 75px;
+  margin: 5px;
+}
+.bg{
+  background-color:  #e8f8f5 !important;
+}
+.body-bg{
+ background-color: rgb(255, 255, 255) !important;
+ border-bottom: 1px solid rgb(211, 208, 208) !important;
+}
+.buy-now{
+  margin-top: -30px !important;
+  padding: 10px;
+}
+.category{
+  width: 100px !important;
+  margin-top: -450px !important;
+  margin-left: 178px !important;
+  position: relative;
+  /* background-color: rgb(23, 59, 12)!important; */
+  opacity: 0.7; /* Set the opacity to create a semi-transparent black color */
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out; /* Add transition for smooth effect */
+  border-top-right-radius: 10px; /* Add rounded edges to the right side */
+  border-bottom-right-radius: 10px; /* Add rounded edges to the right side */
+}
+.card:hover{
+  box-shadow: 15px 20px 20px rgb(0, 0,0,.4),
+                inset 4px 4px 10px aliceblue !important;
+}
+.link-genre{
+  box-shadow: 15px 20px 20px rgb(0, 0,0,.4),
+  inset 4px 4px 10px #b3e7cf !important;
+}
+.link-genre:hover{
+ background-color: rgb(245, 228, 228) !important;
+ box-shadow: none !important;
+}
+.genre-img{
+  height: 75px !important;
+  width:75px !important;
+  object-fit: contain !important;
+  border-radius: 10px !important;
+  /* background-color: white !important; */
+  margin-top: -50px;
+  padding: 5px !important;
+  /* border:2px solid #ffffff !important; */
+  border-radius: 100% !important;
+  border-bottom:  none !important;
+}
+.details-img{
+  width: 100%;
+  height:500px;
+}
+.desc{
+  padding: 15px;
+  border: 1px solid green;
+  line-height: 30px !important;
+}
+.stock{
+  border: 1px solid green !important;
+}
+.review-img{
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+}
+.bannerImg{
+width: 100%;
+height: 80% !important;
+object-fit: contain;
+}
+.banner-text{
+  position: relative;
+  right: 0;
+  margin-right: 150px !important;
+  border-radius: 20px 10px 10px 0px;
+  border: none !important;
+  box-shadow: 15px 20px 20px rgb(0, 0,0,.4),
+                inset 4px 4px 10px #C6F6D5 !important;
+}
+.banner-text::before{
+  content:'';
+    position: absolute;
+    bottom: 0;
+    top: 174px !important;
+    left: 0px;
+    width: 60px;
+    height: 100px;
+    background:linear-gradient(145deg,#C6F6D5 0%,#C6F6D5 50%,transparent 55%,transparent);
+}
+.banner-text-2{
+  width: 400px;
+  text-align: center;
+}
+.banner-text-3{
+  width: 630px;
+  text-align: end;
+}
+/* typing css */
+
+.banner-text-container {
+  position: relative;
+}
+
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space:nowrap;
+  width: 0;
+  animation: typing 3s steps(29) infinite;
+}
+
+.typed-text {
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  animation: cursor 0.8s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes cursor {
+  from,
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* smoking css */
+
+
+
+/* responsive css */
+@media screen and (max-width:868px) {
+  .res-cards{
+   flex-wrap: wrap !important;
+  }
+.banner-text{
+  margin-right: 0px !important;
+  margin: 50px !important;
+}
+.banner-text-2,
+.banner-text-3{
+  width: 100%;
+  text-align: center;
+}
+  }
+
+@media screen and (max-width:568px) {
+.responsive{
+  display: none !important;
+  overflow: hidden !important;
+}
+
+}
